@@ -42,21 +42,21 @@
         // enforce a minimum length
         function(password) {
           if (password.length < owasp.configs.minLength) {
-            return 'The password must be at least ' + owasp.configs.minLength + ' characters long.';
+            return '密码最小长度为: ' + owasp.configs.minLength + ' .';
           }
         },
 
         // enforce a maximum length
         function(password) {
           if (password.length > owasp.configs.maxLength) {
-            return 'The password must be fewer than ' + owasp.configs.maxLength + ' characters.';
+            return '密码最大长度为: ' + owasp.configs.maxLength + ' characters.';
           }
         },
 
         // forbid repeating characters
         function(password) {
           if (/(.)\1{2,}/.test(password)) {
-            return 'The password may not contain sequences of three or more repeated characters.';
+            return '密码不能包含2个以上相同的字符.';
           }
         },
 
@@ -76,28 +76,28 @@
         // require at least one lowercase letter
         function(password) {
           if (!/[a-z]/.test(password)) {
-            return 'The password must contain at least one lowercase letter.';
+            return '密码必须包含至少一个小写字符.';
           }
         },
 
         // require at least one uppercase letter
         function(password) {
           if (!/[A-Z]/.test(password)) {
-            return 'The password must contain at least one uppercase letter.';
+            return '密码必须包含至少一个大写字符.';
           }
         },
 
         // require at least one number
         function(password) {
           if (!/[0-9]/.test(password)) {
-            return 'The password must contain at least one number.';
+            return '密码必须包含一位数字.';
           }
         },
 
         // require at least one special character
         function(password) {
           if (!/[^A-Za-z0-9]/.test(password)) {
-            return 'The password must contain at least one special character.';
+            return '密码必须包含一个非数字或者非字母的字符';
           }
         },
 
