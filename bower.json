@@ -16,6 +16,10 @@
     "password",
     "owasp"
   ],
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/GladiusK/owasp-password-strength-test"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
