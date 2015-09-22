@@ -7,19 +7,11 @@
     "yuxuan <55826903@qq.com>"
   ],
   "description": "A password-strength tester based off of the OWASP Guidelines for enforcing secure passwords.",
-  "moduleType": [
-    "globals",
-    "node"
-  ],
   "keywords": [
     "security",
     "password",
     "owasp"
   ],
-  "repository": {
-  "type": "git",
-  "url": "https://github.com/GladiusK/owasp-password-strength-test"
-  },
   "license": "MIT",
   "ignore": [
     "**/.*",
