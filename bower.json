@@ -1,7 +1,7 @@
 {
   "name": "owasp-password-strength-test-cn",
   "main": "owasp-password-strength-test.js",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "homepage": "https://github.com/GladiusK/owasp-password-strength-test",
   "authors": [
     "yuxuan <55826903@qq.com>"
