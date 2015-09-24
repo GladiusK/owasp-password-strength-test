@@ -49,7 +49,7 @@
         // enforce a maximum length
         function(password) {
           if (password.length > owasp.configs.maxLength) {
-            return '密码最大长度为: ' + owasp.configs.maxLength + ' characters.';
+            return '密码最大长度为: ' + owasp.configs.maxLength + ' .';
           }
         },
 
